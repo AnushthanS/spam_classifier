@@ -8,7 +8,7 @@
 - This is an implementation of a spam classifier using NLP techniques
 - All the files required have been zipped along with the code
 - The code can be run in any jupyter notebook environment.
-    - Note that the project requires **pandas, numpy** and **scikit_learn**
+    - Note that the project requires **pandas, imbalanced-learn, numpy** and **scikit_learn**
 - run `pip install numpy pandas scikit_learn` in the terminal within this directory 
 
 - Dataset has been provided in the form of a csv file, and there are 5171 emails with spam/ham classification
@@ -16,3 +16,7 @@
     - This can be changed in the code by changing the test_size value in the Baye's model  
 
 - Change the start and end index to get a desired range of predictions printed, just to check the working of the model
+
+## Edit:
+- Upon receiving suggestions related to user input promps from our instructor, we have made a
+- simple input prompt which can be run through the model
